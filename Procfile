@@ -1,1 +1,1 @@
-web: streamlit run app_ASD_TD_English.py
+web: streamlit run app_ml_sl_English.py
