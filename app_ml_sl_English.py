@@ -19,18 +19,21 @@ with open('ml_sl_scaler.pkl', 'rb') as scaler_file:
 
 # Feature names list
 feature_names = [
-    'GMV STG.l',
-    'z-FC aSTG.l to HG.r',
-    'z-FC aSTG.l to ICC.l',
-    'z-FC aSTG.l to AG.r',
-    'z-FC aSTG.l to SCC.l',
-    'z-FC aSTG.l to toMTG.r',
-    'z-FC PT.l to Cuneal.r',
-    'z-FC PT.l to LG.r',
-    'z-FC pSTG.l to toMTG.',
-    'z-FC HG.l to Pallidum.l',
-    'z-FC pSTG.r to HG.r',
-    'z-FC Cuneal.l to FOrb.l'
+    "GMV STG.l",
+    "GMV ITG.l",
+    "z-FC aSTG.l to HG.l",
+    "z-FC aSTG.l to TP.r",
+    "z-FC aSTG.l to Ver45",
+    "z-FC HG.l to Pallidum.l",
+    "z-FC pSTG.r to iLOC.r",
+    "z-FC PC to toITG.r",
+    "z-FC_PC to pITG.l",
+    "z-FC toMTG.r to Ver3",
+    "z-FC toMTG.r to pMTG.l",
+    "z-FC PT.l to IC.r",
+    "z-FC PT.l to SCC.r",
+    "z-FC Cuneal.l to Forb.l",
+    "z-FC Ver3 to Caudate.l"
 ]
 
 # Create title and instructions
